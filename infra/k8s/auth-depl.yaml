@@ -15,6 +15,9 @@ spec:
       containers:
         - name: auth
           image: abhiy153/auth
+          env:
+            - name: JWT_KEY
+              value: ajgfd 
 ---
 apiVersion: v1
 kind: Service
